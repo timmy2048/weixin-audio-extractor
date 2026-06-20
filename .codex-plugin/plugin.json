@@ -1,0 +1,39 @@
+{
+  "name": "weixin-audio-extractor",
+  "version": "0.1.0",
+  "description": "Extract MP3 audio and parser metadata from a Weixin share link.",
+  "author": {
+    "name": "timmy2048",
+    "email": "timmy2048@protonmail.com",
+    "url": "https://github.com/timmy2048"
+  },
+  "homepage": "https://github.com/timmy2048/weixin-audio-extractor",
+  "repository": "https://github.com/timmy2048/weixin-audio-extractor",
+  "license": "MIT",
+  "keywords": [
+    "weixin",
+    "wechat",
+    "audio",
+    "ffmpeg",
+    "codex-plugin"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Weixin Audio Extractor",
+    "shortDescription": "Turn a Weixin share link into a local MP3 file.",
+    "longDescription": "Resolve a video URL from a Weixin share link, download the source MP4, extract MP3 audio, and save parser metadata on disk.",
+    "developerName": "timmy2048",
+    "category": "Productivity",
+    "capabilities": [
+      "Local Processing",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/timmy2048/weixin-audio-extractor",
+    "brandColor": "#1AAD19",
+    "defaultPrompt": [
+      "Extract audio from a Weixin share link.",
+      "Save Weixin audio into D:\\videos.",
+      "Extract Weixin audio and keep the MP4."
+    ]
+  }
+}

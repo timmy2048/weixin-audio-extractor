@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+weixin_*.json
+weixin_*.mp3
+weixin_*.mp4
