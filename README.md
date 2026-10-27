@@ -118,7 +118,7 @@ This plugin intentionally depends on the public parser endpoint:
 
 `https://sph.litao.workers.dev/api/fetch_video_profile`
 
-That endpoint is not controlled by this repository. If it changes behavior, rate-limits requests, or goes offline, extraction will fail even if the local code is unchanged
+That endpoint is not controlled by this repository. If it changes behavior, rate-limits requests, or goes offline, extraction will fail even if the local code is unchanged.
 
 ## License
 
