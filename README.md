@@ -110,7 +110,7 @@ python C:\Users\Administrator\.codex\skills\.system\plugin-creator\scripts\valid
 - `Parser request failed`
   The third-party parser endpoint was unavailable or rejected the request.
 - `error: [ffmpeg output]`
-  `imageio-ffmpeg` resolved an ffmpeg binary, but ffmpeg could not decode the downloaded video
+  `imageio-ffmpeg` resolved an ffmpeg binary, but ffmpeg could not decode the downloaded video.
 
 ## Third-party dependency notice
 
@@ -118,7 +118,7 @@ This plugin intentionally depends on the public parser endpoint:
 
 `https://sph.litao.workers.dev/api/fetch_video_profile`
 
-That endpoint is not controlled by this repository. If it changes behavior, rate-limits requests, or goes offline, extraction will fail even if the local code is unchanged
+That endpoint is not controlled by this repository. If it changes behavior, rate-limits requests, or goes offline, extraction will fail even if the local code is unchanged.
 
 ## License
 
